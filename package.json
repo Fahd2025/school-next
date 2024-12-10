@@ -26,6 +26,9 @@
     "recharts": "^2.12.7",
     "zod": "^3.23.8"
   },
+   "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
