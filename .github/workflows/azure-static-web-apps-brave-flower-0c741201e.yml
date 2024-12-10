@@ -30,10 +30,9 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "" # Built app content directory - optional
+          output_location: "out" # Built app content directory - optional
         env: # Add environment variables here
           IS_STATIC_EXPORT: true
-          output_location: '/bin/staticsites/aff1f170-49ba-4f14-b8a5-5fe6293ed7b7-swa-oryx/app/.next'
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
